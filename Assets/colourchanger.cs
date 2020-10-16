@@ -18,9 +18,11 @@ public class colourchanger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Simple Key press colour changing logic
         if (Input.GetKeyDown(KeyCode.R))
         {
             sphere.GetComponent<MeshRenderer>().material = red;
+            //this is a change
         }
 
         if (Input.GetKeyDown(KeyCode.G))
