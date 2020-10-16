@@ -815,6 +815,7 @@ GameObject:
   - component: {fileID: 1340350500}
   - component: {fileID: 1340350499}
   - component: {fileID: 1340350498}
+  - component: {fileID: 1340350502}
   m_Layer: 0
   m_Name: Sphere (2)
   m_TagString: Untagged
@@ -896,6 +897,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1340350502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340350497}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1df07ea953e316d47bbc8808a75e205d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sphere: {fileID: 1340350497}
+  red: {fileID: 2100000, guid: 951fbdcb1f57e7c479a4770afdf0c819, type: 2}
+  green: {fileID: 2100000, guid: 99365bc8d762b6440aaaa4cd07e275f2, type: 2}
 --- !u!1 &1806801219
 GameObject:
   m_ObjectHideFlags: 0
